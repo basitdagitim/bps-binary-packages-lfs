@@ -2,12 +2,9 @@
 name="m4"
 version="1.4.19"
 description="GNU macro processor"
-source=("https://ftp.gnu.org/gnu/m4/m4-${version}.tar.xz")
-depends=( )
-nls_depends=("gettext")
-group=(sys.devel)
-
-
+source="https://ftp.gnu.org/gnu/m4/m4-${version}.tar.xz"
+depends=""
+group="sys.devel"
 setup(){
     ../${name}-${version}/configure --prefix=/usr \
         --libdir=/usr/lib64 \
