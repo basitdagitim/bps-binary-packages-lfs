@@ -17,8 +17,9 @@ find * -type f -name *bps |
 	    	#depends=$(echo $depends | sed 's/.*="\([0-9]*\)\"/\1/')
 	    	#depends=${depends:9:-1}
 	    	
-	    	echo "$name|$version|$depends|$file_name">>index.lst
-		#echo $file_name
+	    	echo "$name|$version|$depends|$(dirname $file_name)">>index.lst
+		#echo $(dirname $file_name)
+		
 		#echo $(basename $file_name)
 		
 	    done
