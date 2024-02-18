@@ -1,15 +1,13 @@
 #!/usr/bin/env bash
-version="10.42"
-name="pcre2"
-depends=""
+version="10.40"
+name="libpcre2"
 description="Perl-compatible regular expression library"
-source="https://github.com/PCRE2Project/pcre2/releases/download/pcre2-10.42/${name}-${version}.tar.gz"
+source="https://github.com/PCRE2Project/pcre2/releases/download/pcre2-${version}/pcre2-${version}.tar.gz"
+depends="readline"
+group="dev.libs"
 
-
-groups="app.arch"
 setup()
 {
-
      ../${name}-${version}/configure --prefix=/ \
     	--libdir=/lib \
 	    --enable-shared \
@@ -21,7 +19,6 @@ setup()
 }
 build()
 {
-	
 	make 
 }
 package()

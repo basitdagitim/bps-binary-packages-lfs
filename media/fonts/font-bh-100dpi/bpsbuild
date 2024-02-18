@@ -6,8 +6,6 @@ source="https://gitlab.freedesktop.org/xorg/font/bh-100dpi/-/archive/font-bh-100
 depends="bdftopcf,font-util"
 group="media.fonts"
 
-cd bh-100dpi-$name-$version
-
 setup(){
 cd $SOURCEDIR
 	autoreconf -fvi

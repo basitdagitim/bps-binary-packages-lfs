@@ -6,8 +6,6 @@ source="https://gitlab.freedesktop.org/xorg/font/ibm-type1/-/archive/font-ibm-ty
 depends="font-util"
 group="media.fonts"
 
-cd ibm-type1-$name-$version
-
 setup(){
 	cd $SOURCEDIR
 	autoreconf -fvi
