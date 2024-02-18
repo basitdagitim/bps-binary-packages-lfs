@@ -5,9 +5,6 @@ description="X.Org Bitstream Type 1 fonts "
 source="https://gitlab.freedesktop.org/xorg/font/bitstream-type1/-/archive/font-bitstream-type1-$version/bitstream-type1-font-bitstream-type1-$version.tar.gz"
 depends="font-util"
 group="media.fonts"
-
-
-
 setup(){
 	cd $SOURCEDIR
 	autoreconf -fvi

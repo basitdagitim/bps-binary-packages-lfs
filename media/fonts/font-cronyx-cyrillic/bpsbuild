@@ -6,8 +6,6 @@ source="https://gitlab.freedesktop.org/xorg/font/cronyx-cyrillic/-/archive/font-
 depends="bdftopcf,font-util"
 group="media.fonts"
 
-cd cronyx-cyrillic-$name-$version
-
 setup(){
 	cd $SOURCEDIR
 	autoreconf -fvi

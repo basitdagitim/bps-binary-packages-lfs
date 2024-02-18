@@ -3,7 +3,6 @@ name="dejavu"
 version="2.37"
 description="DejaVu fonts, bitstream vera with ISO-8859-2 characters"
 source="https://github.com/dejavu-fonts/dejavu-fonts/releases/download/version_${version/./_}/dejavu-lgc-fonts-ttf-$version.zip"
-
 depends=""
 group="media.fonts"
 setup()

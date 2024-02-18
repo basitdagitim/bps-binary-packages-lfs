@@ -3,7 +3,7 @@ name="font-bh-100dpi"
 version="1.0.3"
 description="X.Org Bigelow & Holmes bitmap fonts"
 source="https://gitlab.freedesktop.org/xorg/font/bh-100dpi/-/archive/font-bh-100dpi-$version/bh-100dpi-font-bh-100dpi-$version.tar.gz"
-depends="bdftopcf font-util"
+depends="bdftopcf,font-util"
 group="media.fonts"
 
 cd bh-100dpi-$name-$version

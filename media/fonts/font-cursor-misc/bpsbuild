@@ -6,8 +6,6 @@ source="https://gitlab.freedesktop.org/xorg/font/cursor-misc/-/archive/font-curs
 depends="font-util"
 group="media.fonts"
 
-cd cursor-misc-$name-$version
-
 setup(){
 	cd $SOURCEDIR
 	autoreconf -fvi

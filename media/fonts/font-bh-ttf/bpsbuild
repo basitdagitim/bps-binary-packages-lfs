@@ -5,9 +5,6 @@ description="X.Org Bigelow & Holmes TrueType fonts"
 source="https://gitlab.freedesktop.org/xorg/font/bh-ttf/-/archive/font-bh-ttf-$version/bh-ttf-font-bh-ttf-$version.tar.gz"
 depends="font-util"
 group="media.fonts"
-
-
-
 setup(){
 	cd $SOURCEDIR
 	autoreconf -fvi

@@ -6,8 +6,6 @@ source="https://gitlab.freedesktop.org/xorg/font/jis-misc/-/archive/font-jis-mis
 depends="bdftopcf,font-util"
 group="media.fonts"
 
-cd jis-misc-$name-$version
-
 setup(){
 	cd $SOURCEDIR
 	autoreconf -fvi
