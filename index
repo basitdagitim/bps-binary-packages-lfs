@@ -28,5 +28,4 @@ find * -type f -name *bps |
 
 mkdir /output -p
 cp -rf index.lst /output
-mkdir /output -p
-cp -rf index.lst /output
+
